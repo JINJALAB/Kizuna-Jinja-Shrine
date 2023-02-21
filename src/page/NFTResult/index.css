@@ -1,0 +1,109 @@
+.nft-result-wrap {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.nft-result-wrap .nft-result-content {
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.nft-result-wrap .nft-result-content .title {
+  font-size: 24px;
+  font-family: default_font_Hoefler;
+  font-weight: 400;
+  color: #f7edb6;
+}
+
+.description-wrap {
+  width: 889px;
+  height: 81px;
+  position: relative;
+}
+
+.descrition-inner {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(78, 8, 22, 0) 0%, #4e0816 100%);
+  opacity: 0.34;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.descrition-text {
+  font-size: 24px;
+  font-family: default_font_Hoefler;
+  font-weight: 900;
+  color: #f6e2b6;
+  line-height: 29px;
+  background: linear-gradient(180deg, #ffdd84 0%, #f6e2b6 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  transform: translateX(-50%);
+}
+
+.descrition-text::after {
+  content: "";
+  width: 665px;
+  height: 12px;
+  background-image: url(../../assets/shrine/process-nft/pray-title-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.nft {
+  width: 474px;
+  height: 487px;
+  background-image: url(../../assets/shrine/nft-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: 22px auto 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-family: default_font_Hoefler;
+  font-weight: 900;
+  color: #7e4844;
+}
+
+.nft img {
+  width: 285px;
+  height: 287px;
+  margin-bottom: 8px;
+}
+
+.btn-confirm {
+  width: 337px;
+  height: 70px;
+  line-height: 70px;
+  background-image: url(../../assets/shrine/process-nft/btn-confirm.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 24px;
+  font-family: default_font_Hoefler;
+  font-weight: 900;
+  color: #f6e2b6;
+  text-shadow: 0px 12px 24px rgba(69, 17, 17, 0.4);
+  cursor: pointer;
+  margin: 30px auto 0;
+  transition: 0.3s ease-in;
+}
+
+.btn-confirm:hover {
+  filter: drop-shadow(2px 2px 2px rgba(255, 223, 155, 0.6));
+  transform: scale(1.02);
+}

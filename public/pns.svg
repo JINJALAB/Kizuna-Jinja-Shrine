@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33px" height="33px" viewBox="0 0 33 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>画板</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#60B1F6" offset="0%"></stop>
+            <stop stop-color="#7EFEE3" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="画板" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="椭圆形" fill="url(#linearGradient-1)" cx="16.5" cy="16.5" r="16.5"></circle>
+        <polygon id="路径" fill="#FFFFFF" fill-rule="nonzero" points="23.9999879 21.5025148 21.493032 24 19.0496641 21.5025148 16.5321117 18.9951231 16.4999923 18.9629707 16.4985249 18.9650816 16.4677097 18.9951229 13.9503206 21.5025147 11.5076056 23.9999999 9 21.5025147 13.9930455 16.53029 14.0230454 16.4995991 9.00001258 11.4968386 11.5076182 9.00000051 13.9503332 11.4968386 16.5000043 14.0362196 16.5021239 14.0349205 16.5321239 14.0040673 19.0496762 11.4968381 21.4930441 9 24 11.4968381 19.0076266 16.4697322 18.9768114 16.4996111"></polygon>
+        <g id="编组" transform="translate(12.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <polygon id="路径" points="9 24.4016421 4.48267048 29 0 24.4609609 2.35993261 22.0593312 4.48267658 24.1962592 6.64070199 22"></polygon>
+            <polygon id="路径" transform="translate(4.500000, 3.500000) scale(-1, -1) translate(-4.500000, -3.500000) " points="9 2.40164212 4.48267048 7 0 2.46096094 2.35993261 0.0593312457 4.48267658 2.19625923 6.64070199 0"></polygon>
+        </g>
+        <g id="编组" opacity="0.541360294" transform="translate(16.500000, 16.500000) rotate(90.000000) translate(-16.500000, -16.500000) translate(12.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <polygon id="路径" points="9 24.4016421 4.48267048 29 0 24.4609609 2.35993261 22.0593312 4.48267658 24.1962592 6.64070199 22"></polygon>
+            <polygon id="路径" transform="translate(4.500000, 3.500000) scale(-1, -1) translate(-4.500000, -3.500000) " points="9 2.40164212 4.48267048 7 0 2.46096094 2.35993261 0.0593312457 4.48267658 2.19625923 6.64070199 0"></polygon>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,29 @@
+stages:
+  - test
+  - build
+
+test:
+  stage: build
+  tags:
+    - front-test
+  only:
+    - test
+  script:
+    - npm install
+    - npm run build
+    - rm -rf /www/shrine
+    - mkdir -p /www/shrine
+    - cp -rf build/* /www/shrine
+# build:
+#   stage: build
+#   tags:
+#     - officalweb
+#   only:
+#     - master
+#   script:
+#     - npm install
+#     - npm run build
+#     - rm -rf /www/pns-token
+#     - mkdir -p /www/pns-token
+#     - cp -rf build/* /www/pns-token
+

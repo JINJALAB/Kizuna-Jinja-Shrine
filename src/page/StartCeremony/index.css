@@ -1,0 +1,85 @@
+.start-ceremony-wrap {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.start-ceremony-content {
+  position: absolute;
+  left: 50%;
+  top: 40px;
+  transform: translateX(-50%);
+}
+
+.start-ceremony-content .title {
+  text-align: center;
+}
+
+.start-ceremony-content .title img {
+  width: 180px;
+  display: inline-block;
+}
+
+.start-ceremony-content .description {
+  width: 1141px;
+  height: 81px;
+  line-height: 101px;
+  background-image: url(../../assets/shrine/start/description_bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 24px;
+  font-family: default_font_Hoefler;
+  font-weight: 900;
+  color: #f6e2b6;
+  margin: 42px auto 0;
+  animation: opacity 3s;
+}
+
+.ceremony-card-wrap {
+  display: flex;
+}
+
+.ceremony-card-wrap .ceremony-card-item {
+  width: 506px;
+  height: 690px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+  animation: opacity 3s;
+}
+
+.ceremony-card-wrap .ceremony-card-item:first-child {
+  background-image: url(./assets/1-default.png);
+}
+
+.ceremony-card-wrap .ceremony-card-item:nth-child(2) {
+  background-image: url(./assets/2-default.png);
+}
+
+.ceremony-card-wrap .ceremony-card-item:last-child {
+  background-image: url(./assets/3-default.png);
+}
+
+.ceremony-card-wrap .ceremony-card-item:hover {
+  filter: drop-shadow(0 0 30px rgba(255, 223, 155, 0.8));
+  transform: scale(1.02);
+}
+
+.ranking-touch {
+  width: 737px;
+  height: 40px;
+  background-image: url(../../assets/shrine/start/ranking_touch_bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 22px;
+  font-family: HoeflerText-Black, HoeflerText;
+  font-weight: 900;
+  color: #fff9e5;
+  margin: 53px auto 0;
+  cursor: pointer;
+  animation: opacity 3s;
+}

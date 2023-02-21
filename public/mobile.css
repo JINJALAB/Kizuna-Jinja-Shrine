@@ -1,0 +1,17 @@
+.banner-container {
+  padding: 0 1rem !important;
+}
+.donate-input {
+  min-width: 100% !important;
+}
+
+.btns-mobile {
+  flex: auto;
+  padding: 0 4rem;
+}
+.footer-container {
+  padding: 2rem !important;
+}
+.hide-in-mobile {
+  display: none !important;
+}

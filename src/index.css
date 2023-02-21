@@ -1,0 +1,139 @@
+html,
+body {
+  margin: 0;
+  font-family: "default_font_Hoefler", Microsoft YaHei !important;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: white;
+}
+
+html,
+body,
+#root,
+.App {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+@font-face {
+  font-family: "default_font_Hoefler";
+  src: url("./assets/fonts/Hoefler-Text.ttc");
+}
+@font-face {
+  font-family: "font_Zen";
+  src: url("./assets/fonts/ZenAntiqueSoft-Regular.ttf");
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  font-weight: inherit;
+  line-height: inherit;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+}
+::-webkit-input-placeholder {
+  color: #9ca3af;
+}
+
+::-moz-placeholder {
+  color: #9ca3af;
+}
+
+::-ms-placeholder {
+  color: #9ca3af;
+}
+
+::placeholder {
+  color: #9ca3af;
+}
+
+.video-js {
+  height: 100%;
+  width: 100%;
+}
+
+.video-js.vjs-fluid:not(.vjs-audio-only-mode) {
+  height: 100%;
+}
+
+.ant-tooltip {
+  top: 455px !important;
+}
+
+.ant-tooltip .ant-tooltip-arrow {
+  display: none;
+}
+
+.ant-tooltip .ant-tooltip-inner {
+  font-family: Microsoft YaHei;
+  background: #f19245;
+  border-radius: 6px;
+  opacity: 1;
+  color: #fff;
+  font-size: 20px;
+  padding: 0px 10px;
+}
+
+.user-popover {
+  padding-top: 0;
+}
+
+.user-popover .ant-popover-arrow {
+  display: none;
+}
+
+.user-popover .ant-popover-inner {
+  background: transparent;
+  box-shadow: none;
+}
+
+.user-popover .ant-popover-inner .ant-popover-inner-content {
+  padding: 0;
+}
+
+.user-popover .menu-pop-item {
+  width: 238px;
+  height: 31px;
+  background-image: url(./assets/shrine/user-popover-item-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 16px;
+  font-family: default_font_Hoefler;
+  font-weight: 900;
+  color: #fddb90;
+  line-height: 31px;
+  text-align: center;
+  display: block;
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

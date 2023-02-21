@@ -1,0 +1,219 @@
+.my-nft-wrap {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: #3d2c2d;
+}
+
+.my-nft-wrap .nft-content {
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.my-nft-wrap .nft-content .title {
+  text-align: center;
+}
+
+.my-nft-wrap .nft-content .title img {
+  width: 180px;
+  display: inline-block;
+}
+
+.userInfo {
+  margin-top: 73px;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.userInfo .avatar {
+  width: 78px;
+  height: 78px;
+}
+
+.userInfo .name-address {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 14px;
+}
+
+.userInfo .name-address .name {
+  font-size: 24px;
+  font-family: default_font_Hoefler;
+  font-weight: 900;
+  color: #f6e2b6;
+}
+
+.userInfo .name-address .address {
+  font-size: 16px;
+  font-family: default_font_Hoefler;
+  font-weight: 900;
+  color: #f6e2b6;
+}
+
+.nfts-wrap {
+  width: 1103px;
+  height: 523px;
+  background-image: url(../../assets/shrine/my-nft-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.nfts-inner {
+  position: absolute;
+  top: 40px;
+  left: 130px;
+  width: 850px;
+  height: 430px;
+  overflow-y: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nfts-inner::-webkit-scrollbar {
+  width: 8px;
+}
+.nfts-inner::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: linear-gradient(180deg, #ba0c0c 0%, #840505 100%);
+}
+.nfts-inner::-webkit-scrollbar-track {
+  border-radius: 0;
+  background: transparent;
+}
+
+.nft-layer {
+  width: 200px;
+  height: 200px;
+  margin-right: 8px;
+  display: flex;
+  flex-direction: column;
+
+  font-size: 16px;
+  font-family: default_font_Hoefler;
+  font-weight: 900;
+  color: #7e4844;
+  margin-bottom: 38px;
+}
+
+.nft-layer img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 8px;
+}
+
+.btn-back {
+  width: 337px;
+  height: 70px;
+  line-height: 70px;
+  background-image: url(../../assets/shrine/process-nft/btn-confirm.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: 40px auto 0;
+  font-size: 30px;
+  font-family: default_font_Hoefler;
+  font-weight: 900;
+  color: #f6e2b6;
+  text-shadow: 0px 12px 24px rgba(69, 17, 17, 0.4);
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+.btn-back:hover {
+  filter: drop-shadow(2px 2px 2px rgba(255, 223, 155, 0.6));
+  transform: scale(1.02);
+}
+
+.ant-modal {
+  width: 938px !important;
+  height: 539px;
+  background-image: url(../../assets/shrine/nft-details-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.ant-modal-content {
+  background: transparent;
+  box-shadow: none;
+  font-size: 18px;
+  font-family: STSongti-SC-Bold, STSongti-SC;
+  font-weight: bold;
+  color: #f6e2b6;
+  line-height: 25px;
+}
+
+.ant-modal-content,
+.ant-modal-body {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.ant-modal-content .ant-modal-close-x {
+  color: rgb(255, 255, 255, 0.5);
+  font-size: 20px;
+}
+
+.ant-modal-body img {
+  width: 430px;
+  height: 430px;
+}
+
+.ant-modal-body .nft-modal-content-details {
+  margin-left: 30px;
+  font-family: default_font_Hoefler;
+}
+
+.nft-modal-content-details p {
+  margin: 0;
+}
+
+.nft-modal-content-details .userName {
+  font-size: 24px;
+  font-weight: 900;
+  color: #f6e2b6;
+}
+.nft-modal-content-details .attrType span:first-child {
+  margin-right: 8px;
+}
+.nft-modal-content-details .description {
+  margin-top: 16px;
+}
+.nft-modal-content-details .prayValue {
+  margin-top: 16px;
+}
+
+.nft-modal-content-details .attrs-wrap {
+  margin-top: 55px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nft-modal-content-details .attrs-wrap .attr-layer {
+  width: 114px;
+  min-height: 50px;
+  background: rgba(230, 220, 209, 0.3);
+  border-radius: 2px;
+  border: 1px solid #b19963;
+  padding: 5px;
+  margin-right: 14px;
+  margin-bottom: 16px;
+  font-family: default_font_Hoefler;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.nft-modal-content-details .attrs-wrap .attr-layer span:first-child {
+  font-size: 12px;
+}
+
+.nft-modal-content-details .attrs-wrap .attr-layer span:last-child {
+  font-size: 14px;
+  word-break: break-all;
+}

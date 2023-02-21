@@ -1,0 +1,348 @@
+@import "~antd/dist/antd.css";
+.App {
+  text-align: center;
+}
+
+.App.mobile {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  /* background-image: url(./assets/shrine/app-mobile-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%; */
+
+  background: linear-gradient(to bottom, #2d2a2d, #625e68);
+  color: #d3d3d3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.App.mobile .mobile-title {
+  font-size: 20px;
+}
+
+.App.mobile .guide-to-pc {
+  font-size: 18px;
+}
+
+.App.mobile .mobile-logo {
+  background: #d00000;
+  height: 30px;
+  width: 150px;
+  color: #fff;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.d-flex {
+  display: flex !important;
+}
+.flex-row {
+  flex-direction: row;
+}
+.flex-column {
+  flex-direction: column;
+}
+.flex-justify-center {
+  justify-content: center;
+}
+.flex-justify-between {
+  justify-content: space-between;
+}
+.flex-justify-around {
+  justify-content: space-around;
+}
+.flex-justify-evenly {
+  justify-content: space-evenly;
+}
+.flex-items-center {
+  align-items: center;
+}
+.flex-items-end {
+  align-items: end;
+}
+.flex-auto {
+  flex: auto;
+}
+/* .bg-container {
+  overflow: hidden !important;
+  background-image: url("./assets/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 65%;
+  margin-top: -45px;
+} */
+.yellow-bg {
+  background: #f7d33e !important;
+}
+.white-bg {
+  background: #ffffff !important;
+  color: #64bdef !important;
+}
+.primary-button {
+  height: 35px;
+  line-height: 35px;
+  background: linear-gradient(to right, #ffa388, #ff5d5b);
+  border-radius: 6px;
+  padding: 0 1rem;
+  cursor: pointer;
+  margin: 0 0.5rem;
+  color: white;
+  font-size: 1rem;
+  display: flex;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.border-button {
+  border: 2px solid #ffa388;
+  height: 31px;
+  line-height: 31px;
+  background: white;
+  border-radius: 6px;
+  padding: 0 1rem;
+  cursor: pointer;
+  margin: 0 0.5rem;
+  color: #ff5d5b;
+  font-size: 1rem;
+  display: flex;
+}
+.pop-container {
+  background-color: #fff;
+  border-radius: 5px;
+  font-weight: 400;
+  padding: 10px 20px;
+  position: absolute;
+}
+.menu-pop-container {
+  right: 17rem;
+  top: 3rem;
+  width: 120px;
+}
+.switch-network-pop-container {
+  left: 50%;
+  top: 50%;
+  width: 300px;
+  transform: translate(-50%, -50%);
+}
+.myNFT-pop-container {
+  left: 50%;
+  top: 50%;
+  width: 300px;
+  height: 300px;
+  transform: translate(-50%, -50%);
+}
+.menu-pop-item {
+  margin: 0.5rem;
+  cursor: pointer;
+}
+.divide-line {
+  background: rgb(172, 159, 159);
+  height: 1px;
+}
+.text-overflow {
+  width: 4rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.disable-btn {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+.radius-border {
+  border: solid 1px #64bded;
+  border-radius: 5px;
+}
+
+.cover-img {
+  width: 100%;
+  filter: brightness(0.2);
+}
+
+.img-bg {
+  overflow: hidden !important;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.enter-wrap {
+  animation: opacity 2s;
+}
+.enter-container {
+  background-image: url("./assets/shrine/enter.png");
+  width: 1187px;
+  height: 129px;
+  font-size: 24px;
+  color: #f6e2b6;
+  font-weight: bold;
+  font-size: 48px;
+  font-family: default_font_Hoefler;
+  font-weight: 900;
+  color: #f6e2b6;
+  line-height: 100px;
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+.enter-container:hover {
+  filter: drop-shadow(2px 2px 2px rgba(255, 223, 155, 0.6));
+  transform: scale(1.02);
+}
+
+.enter-tip-info {
+  background-image: url("./assets/shrine/toBegin.png");
+  width: 652px;
+  height: 42px;
+  font-size: 30px;
+  font-family: default_font_Hoefler;
+  font-weight: 400;
+  color: #f6e2b6;
+  line-height: 38px;
+}
+.enter-tip-info.connectWallet {
+  font-size: 20px;
+  line-height: 44px;
+}
+.banner-container {
+  position: absolute;
+  top: 38px;
+  right: 180px;
+  z-index: 1;
+}
+.sign-in-container {
+  background-image: url("./assets/shrine/signIn-bg.png");
+  width: 1188px;
+  height: 224px;
+  font-size: 16px;
+  color: #f6e2b6;
+  font-weight: normal;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation: opacity 2s;
+}
+.sign-in-metamask {
+  background-image: url("./assets/shrine/metamaskSign.png");
+  width: 623px;
+  height: 70px;
+  line-height: 70px;
+  font-size: 30px;
+  font-family: default_font_Hoefler;
+  font-weight: 900;
+  color: #f6e2b6;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+.sign-in-metamask:hover {
+  filter: drop-shadow(2px 2px 2px rgba(255, 223, 155, 0.6));
+  transform: scale(1.02);
+}
+.project-title {
+  color: #f6e2b6;
+  padding-bottom: 80px;
+}
+.ceremony-title {
+  background-image: url("./assets/shrine/title-underline.png");
+  width: 600px;
+  font-size: 12px;
+  color: #f6e2b6;
+  height: 40px;
+  line-height: 40px;
+}
+.ceremony-cards {
+  color: #efd280;
+  font-size: 18px;
+  font-family: "font_Zen";
+  padding-top: 10px;
+}
+.ceremony-card-item {
+  width: 180px;
+  position: relative;
+}
+.ceremony-card-item .ceremony-content {
+  position: absolute;
+  bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.ceremony-card-item-img :hover {
+  filter: drop-shadow(1px 1px 8px rgb(255, 255, 255, 0.6));
+}
+.ceremony-content .tip-info {
+  color: #a09a89;
+  font-size: 12px;
+  font-family: "default_font_Hoefler";
+}
+
+.home-wrap {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.home-wrap .home-inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.home-wrap .home-inner .enter-tip-info {
+  margin: 10px auto;
+}
+
+.video-react {
+  height: 100% !important;
+}
+
+.video-react .video-react-button {
+  display: none !important;
+}
+
+.title img {
+  width: 150px !important;
+  display: inline-block;
+}

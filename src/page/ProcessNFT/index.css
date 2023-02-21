@@ -1,0 +1,365 @@
+.process-nft-wrap {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.process-nft-content {
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: opacity 3s;
+}
+
+.process-nft-content .title {
+  text-align: center;
+}
+
+.process-nft-content .title img {
+  width: 180px;
+  display: inline-block;
+}
+
+.guide {
+  width: 1316px;
+  height: 101px;
+  background-image: url(../../assets/shrine/process-nft/guide-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 18px;
+  font-family: default_font_Hoefler;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 101px;
+  position: relative;
+}
+
+.guide > div {
+  position: absolute;
+  top: 0;
+  text-shadow: 1px 1px 3px #3c3c3c;
+}
+
+.guide > div:not(:last-child)::after {
+  content: "";
+  width: 24px;
+  height: 20px;
+  background-image: url(../../assets/shrine/process-nft/guide-icon.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 42px;
+}
+
+.guide > div:nth-child(1) {
+  left: 392px;
+}
+
+.guide > div:nth-child(1)::after {
+  left: 168px;
+}
+
+.guide > div:nth-child(2) {
+  left: 614px;
+}
+
+.guide > div:nth-child(2)::after {
+  left: 188px;
+}
+
+.guide > div:nth-child(3) {
+  left: 860px;
+}
+
+.ceremony-type {
+  font-size: 36px;
+  font-family: ZenAntiqueSoft-Regular, ZenAntiqueSoft;
+  font-weight: 600;
+  color: #efd280;
+  text-shadow: 1px 1px 3px #3c3c3c;
+}
+
+.content {
+  width: 905px;
+  height: 590px;
+  margin: 20px auto 0;
+  position: relative;
+}
+
+.form-wrap {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 3px solid #880606;
+  box-sizing: border-box;
+  opacity: 0.5;
+  background: linear-gradient(0deg, #4e0816 0%, rgba(78, 8, 22, 0) 100%);
+}
+
+.form-inner {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.form-item .form-label {
+  font-size: 24px;
+  font-family: default_font_Hoefler;
+  font-weight: 900;
+  color: #eccc79;
+  position: relative;
+  text-shadow: 1px 1px 3px #3c3c3c;
+}
+
+.form-label.personal-info {
+  padding-top: 42px;
+}
+
+.form-label.wish-comment {
+  padding-top: 32px;
+}
+
+.form-item .form-label.personal-info::before {
+  content: "";
+  width: 88px;
+  height: 6px;
+  background-image: url(../../assets/shrine/process-nft/label-left-icon.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 58px;
+  left: 140px;
+}
+
+.form-item .form-label.personal-info::after {
+  content: "";
+  width: 88px;
+  height: 6px;
+  background-image: url(../../assets/shrine/process-nft/label-right-icon.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 58px;
+  right: 140px;
+}
+
+.form-item .form-label.wish-comment::before {
+  content: "";
+  width: 88px;
+  height: 6px;
+  background-image: url(../../assets/shrine/process-nft/label-left-icon.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 48px;
+  left: 198px;
+}
+
+.form-item .form-label.wish-comment::after {
+  content: "";
+  width: 88px;
+  height: 6px;
+  background-image: url(../../assets/shrine/process-nft/label-right-icon.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 48px;
+  right: 198px;
+}
+
+.form-item input {
+  width: 640px;
+  height: 48px;
+  outline: none;
+  background-image: url(../../assets/shrine/process-nft/personal-info-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+  font-size: 18px;
+  font-family: default_font_Hoefler;
+  font-weight: 400;
+  color: #000000;
+  padding: 0 32px;
+  margin-top: 16px;
+}
+
+.form-item textarea {
+  width: 640px;
+  height: 187px;
+  outline: none;
+  background-image: url(../../assets/shrine/process-nft/wish-comment-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 18px;
+  font-family: default_font_Hoefler;
+  font-weight: 400;
+  color: #000000;
+  padding: 16px 32px 0;
+}
+
+.btn-submit {
+  width: 377px;
+  height: 70px;
+  line-height: 70px;
+  background-image: url(../../assets/shrine/process-nft/btn-confirm.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: 40px auto 0;
+  font-size: 30px;
+  font-family: default_font_Hoefler;
+  font-weight: 900;
+  color: #f6e2b6;
+  text-shadow: 0px 12px 24px rgba(69, 17, 17, 0.4);
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+.btn-submit:hover {
+  filter: drop-shadow(2px 2px 2px rgba(255, 223, 155, 0.6));
+  transform: scale(1.02);
+}
+
+.pray-wrap .title {
+  font-size: 24px;
+  font-family: default_font_Hoefler;
+  font-weight: 900;
+  color: #f6e2b6;
+  line-height: 29px;
+  background: linear-gradient(180deg, #ffdd84 0%, #f6e2b6 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  box-sizing: border-box;
+  padding-top: 35px;
+}
+
+.pray-wrap .title::after {
+  content: "";
+  width: 665px;
+  height: 12px;
+  background-image: url(../../assets/shrine/process-nft/pray-title-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 65px;
+  left: 120px;
+}
+
+.pray-wrap .text-content {
+  font-size: 18px;
+  font-family: default_font_Hoefler;
+  font-weight: 400;
+  color: #f5b066;
+  line-height: 18px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.pray-wrap .text-content p {
+  margin: 0 auto;
+}
+
+.pray-wrap .text-content p:first-child {
+  width: 460px;
+  margin-bottom: 30px;
+}
+
+.pray-wrap .text-content p:last-child {
+  width: 390px;
+}
+
+.pray-wrap .ant-slider {
+  width: 546px;
+  height: 12px;
+  margin: 60px auto 0;
+}
+
+.pray-wrap .ant-slider .ant-slider-rail {
+  background: #43070f;
+  border-radius: 11px;
+  opacity: 0.6;
+  height: 12px;
+  border: 2px solid rgba(253, 242, 210, 1);
+}
+
+.pray-wrap .ant-slider .ant-slider-track {
+  height: 12px;
+  background: linear-gradient(270deg, #ef8637 0%, #ffe9a6 100%);
+  border-radius: 11px;
+}
+
+.pray-wrap .ant-slider .ant-slider-handle {
+  width: 48px;
+  height: 48px;
+  background: url(../../assets/shrine/process-nft/slider-handle-icon.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border: none;
+  margin-top: -18px;
+}
+
+.pray-wrap .ant-slider .ant-slider-handle.ant-tooltip-open {
+  border: none;
+}
+
+.pray-wrap .ant-slider .ant-slider-handle:focus {
+  box-shadow: none;
+}
+
+.pray-wrap .eth-grade {
+  font-size: 20px;
+  font-family: default_font_Hoefler;
+  font-weight: 700;
+  color: #f5b066;
+  margin-top: 35px;
+}
+
+.pray-wrap .btn-pray {
+  width: 337px;
+  height: 70px;
+  line-height: 70px;
+  background-image: url(../../assets/shrine/process-nft/btn-pray.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: 35px auto 0;
+  font-size: 30px;
+  font-family: default_font_Hoefler;
+  font-weight: 900;
+  color: #f6e2b6;
+  text-shadow: 0px 12px 24px rgba(69, 17, 17, 0.4);
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+.pray-wrap .btn-pray:hover {
+  filter: drop-shadow(2px 2px 2px rgba(255, 223, 155, 0.6));
+  transform: scale(1.02);
+}
+
+.pray-wrap .btn-pray .ant-spin .ant-spin-dot {
+  width: 1.2em;
+  height: 1.2em;
+  font-size: 22pxs;
+}
+
+.pray-wrap .btn-pray .ant-spin .ant-spin-dot-item {
+  background-color: #f8e0a6;
+  width: 12px;
+  height: 12px;
+}
+
+.waiting-tips {
+  width: 420px;
+  margin: 30px auto 0;
+  font-size: 18px;
+  font-family: default_font_Hoefler;
+  font-weight: 400;
+  color: #fff;
+  line-height: 20px;
+  text-align: center;
+}
